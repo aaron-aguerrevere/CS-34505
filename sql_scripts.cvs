@@ -1,248 +1,1235 @@
-ï»¿AffiliateSiteName
-alicetx
-amarillo
-amestribune
-apalachtimes
-augustachronicle
-blueridgenow
-boonevilledemocrat
-boonvilledailynews
-buckscountycouriertimes
-burlingtoncountytimes
-cantonrep
-charlestonexpress
-cheboygannews
-chieftain
-chillicothenews
-chipleypaper
-cjonline
-columbiadailyherald
-crestviewbulletin
-crookstontimes
-dailynewstranscript
-dispatch
-dodgeglobe
-donaldsonvillechief
-doverpost
-eveningtribune
-examiner-enterprise
-fosters
-gadsdentimes
-gainesville
-gastongazette
-heralddemocrat
-heraldnews
-heraldtribune
-hockessincommunitynews
-hollandsentinel
-houmatoday
-indeonline
-jdnews
-journalstandard
-kinston
-kirksvilledailyexpress
-lajuntatribunedemocrat
-leesvilledailyleader
-lenconnect
-lincolncourier
-linncountyleader
-lubbockonline
-metrowestdailynews
-middletowntranscript
-milfordbeacon
-milforddailynews
-moberlymonitor
-monroenews
-mpnnow
-nevadaiowajournal
-newbernsj
-newportri
-newsherald
-news-journalonline
-newsrepublican
-newstribuneinfo
-njherald
-norwichbulletin
-nwfdailynews
-ocala
-oklahoman
-onlineathens
-palmbeachdailynews
-palmbeachpost
-paris-express
-pekintimes
-pjstar
-poconorecord
-postsouth
-pressargus
-progress-index
-recordnet
-recordonline
-recordstar
-redwoodfallsgazette
-registerguard
-rrstar
-salina
-seacoastonline
-sentinel-standard
-shelbystar
-sj-r
-sleepyeyenews
-sooeveningnews
-srpressgazette
-starfl
-starnewsonline
-statesman
-staugustine
-stjamesnews
-sturgisjournal
-sussexcountian
-swtimes
-tauntongazette
-telegram
-thedailyreporter
-theintell
-thekansan
-the-leader
-theledger
-theperrychief
-therecordherald
-therolladailynews
-thetimesnews
-thisweeknews
-timesreporter
-timestelegram
-tricountyindependent
-wayneindependent
-tricountytimes
-uticaod
-vvdailypress
-weeklycitizen
-wellsvilledaily
-dallascountynewsonline
-deridderdaily
-desertdispatch
-erietimesnews
-examiner
-fayettevilleobserver
-havenews
-hesperiastar
-hillsdale
-journal-register
-lowcountry
-morningsun
-neagle
-ohio
-polkonline
-providence
-register-mail
-savannah
-scsuntimes
-southbendtribune
-southofboston
-southofboston-enterprise
-southofboston-ledger
-spartanburg
-storycityherald
-thecarbondalenews
-timesunion
-tuscaloosa
-WalthamNewsTribune
-wickedlocal-acton
-wickedlocal-arlington
-wickedlocal-amesbury
-wickedlocal-ashland
-wickedlocal-barnstable
-wickedlocal-bedford
-wickedlocal-bellingham
-wickedlocal-belmont
-wickedlocal-billerica
-wickedlocal-bolton
-wickedlocal-bourne
-wickedlocal-boxborough
-wickedlocal-braintree
-wickedlocal-brewster
-wickedlocal-brookline
-wickedlocal-bulletinandtab
-wickedlocal-burlington
-wickedlocal-cambridgechronicle
-wickedlocal-capecod
-wickedlocal-carver
-wickedlocal-chatham
-wickedlocal-ChronTranscript
-wickedlocal-clinton
-wickedlocal-cohasset
-wickedlocal-concordjournal
-wickedlocal-CourierandSentinel
-wickedlocal-dennis
-wickedlocal-duxbury
-wickedlocal-eagleindependent
-wickedlocal-eastham
-wickedlocal-essex
-wickedlocal-falmouth
-wickedlocal-foxborough
-wickedlocal-franklin
-wickedlocal-gloucester
-wickedlocal-halifax
-wickedlocal-harvard
-wickedlocal-harwich
-wickedlocal-HeraldCitizen
-wickedlocal-hingham
-wickedlocal-holliston
-wickedlocal-hudson
-wickedlocal-JournalNewsInd
-wickedlocal-JournalSun
-wickedlocal-kingston
-wickedlocal-lakeville
-wickedlocal-lancaster
-wickedlocal-lexington
-wickedlocal-manchester
-wickedlocal-marblehead
-wickedlocal-marion
-wickedlocal-marlborough
-wickedlocal-marshfield
-wickedlocal-mattapoisett
-wickedlocal-maynard
-wickedlocal-medford
-wickedlocal-medway
-wickedlocal-melrose
-wickedlocal-millis
-wickedlocal-needham
-wickedlocal-newton
-wickedlocal-norfolk
-wickedlocal-northshoresunday
-wickedlocal-norton
-wickedlocal-observeradvocate
-wickedlocal-orleans
-wickedlocal-pembroke
-wickedlocal-plainville
-wickedlocal-plymouth
-wickedlocal-plympton
-wickedlocal-provincetown
-wickedlocal-recordcitizen
-wickedlocal-salem
-wickedlocal-sandwich
-wickedlocal-saugus
-wickedlocal-scituate
-wickedlocal-sherborn
-wickedlocal-somerville
-wickedlocal-stow
-wickedlocal-sudbury
-wickedlocal-sunadvocate
-wickedlocal-swampscott
-wickedlocal-Tewks-WilAdvocate
-wickedlocal-themariner
-wickedlocal-thepress
-wickedlocal-TheTranscriptTAB
-wickedlocal-timesadvocate
-wickedlocal-TransAndBulletin
-wickedlocal-villagenews
-wickedlocal-watertown
-wickedlocal-wayland
-wickedlocal-wellesley
-wickedlocal-wenham
-wickedlocal-weston
-wickedlocal-weymouth
-wickedlocal-winchester
-wickedlocal-wrentham
-wickedlocal-yarmouth
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.alicetx.com/services/cobrand/header/',
+                        footerurl = 'https://www.alicetx.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'alicetx'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.amarillo.com/services/cobrand/header/',
+                        footerurl = 'https://www.amarillo.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'amarillo'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.amestribune.com/services/cobrand/header/',
+                        footerurl = 'https://www.amestribune.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'amestribune'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.apalachtimes.com/services/cobrand/header/',
+                        footerurl = 'https://www.apalachtimes.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'apalachtimes'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.augustachronicle.com/services/cobrand/header/',
+                        footerurl = 'https://www.augustachronicle.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'augustachronicle'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.blueridgenow.com/services/cobrand/header/',
+                        footerurl = 'https://www.blueridgenow.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'blueridgenow'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.boonevilledemocrat.com/services/cobrand/header/',
+                        footerurl = 'https://www.boonevilledemocrat.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'boonevilledemocrat'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.boonvilledailynews.com/services/cobrand/header/',
+                        footerurl = 'https://www.boonvilledailynews.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'boonvilledailynews'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.buckscountycouriertimes.com/services/cobrand/header/',
+                        footerurl = 'https://www.buckscountycouriertimes.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'buckscountycouriertimes'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.burlingtoncountytimes.com/services/cobrand/header/',
+                        footerurl = 'https://www.burlingtoncountytimes.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'burlingtoncountytimes'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.cantonrep.com/services/cobrand/header/',
+                        footerurl = 'https://www.cantonrep.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'cantonrep'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.charlestonexpress.com/services/cobrand/header/',
+                        footerurl = 'https://www.charlestonexpress.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'charlestonexpress'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.cheboygannews.com/services/cobrand/header/',
+                        footerurl = 'https://www.cheboygannews.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'cheboygannews'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.chieftain.com/services/cobrand/header/',
+                        footerurl = 'https://www.chieftain.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'chieftain'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.chillicothenews.com/services/cobrand/header/',
+                        footerurl = 'https://www.chillicothenews.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'chillicothenews'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.chipleypaper.com/services/cobrand/header/',
+                        footerurl = 'https://www.chipleypaper.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'chipleypaper'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.cjonline.com/services/cobrand/header/',
+                        footerurl = 'https://www.cjonline.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'cjonline'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.columbiadailyherald.com/services/cobrand/header/',
+                        footerurl = 'https://www.columbiadailyherald.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'columbiadailyherald'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.crestviewbulletin.com/services/cobrand/header/',
+                        footerurl = 'https://www.crestviewbulletin.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'crestviewbulletin'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.crookstontimes.com/services/cobrand/header/',
+                        footerurl = 'https://www.crookstontimes.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'crookstontimes'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.metrowestdailynews.com/services/cobrand/header/',
+                        footerurl = 'https://www.metrowestdailynews.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'dailynewstranscript'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.dispatch.com/services/cobrand/header/',
+                        footerurl = 'https://www.dispatch.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'dispatch'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.dodgeglobe.com/services/cobrand/header/',
+                        footerurl = 'https://www.dodgeglobe.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'dodgeglobe'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.donaldsonvillechief.com/services/cobrand/header/',
+                        footerurl = 'https://www.donaldsonvillechief.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'donaldsonvillechief'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.doverpost.com/services/cobrand/header/',
+                        footerurl = 'https://www.doverpost.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'doverpost'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.eveningtribune.com/services/cobrand/header/',
+                        footerurl = 'https://www.eveningtribune.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'eveningtribune'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.examiner-enterprise.com/services/cobrand/header/',
+                        footerurl = 'https://www.examiner-enterprise.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'examiner-enterprise'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.fosters.com/services/cobrand/header/',
+                        footerurl = 'https://www.fosters.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'fosters'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.gadsdentimes.com/services/cobrand/header/',
+                        footerurl = 'https://www.gadsdentimes.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'gadsdentimes'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.gainesville.com/services/cobrand/header/',
+                        footerurl = 'https://www.gainesville.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'gainesville'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.gastongazette.com/services/cobrand/header/',
+                        footerurl = 'https://www.gastongazette.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'gastongazette'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.heralddemocrat.com/services/cobrand/header/',
+                        footerurl = 'https://www.heralddemocrat.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'heralddemocrat'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.heraldnews.com/services/cobrand/header/',
+                        footerurl = 'https://www.heraldnews.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'heraldnews'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.heraldtribune.com/services/cobrand/header/',
+                        footerurl = 'https://www.heraldtribune.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'heraldtribune'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.hockessincommunitynews.com/services/cobrand/header/',
+                        footerurl = 'https://www.hockessincommunitynews.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'hockessincommunitynews'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.hollandsentinel.com/services/cobrand/header/',
+                        footerurl = 'https://www.hollandsentinel.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'hollandsentinel'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.houmatoday.com/services/cobrand/header/',
+                        footerurl = 'https://www.houmatoday.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'houmatoday'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.indeonline.com/services/cobrand/header/',
+                        footerurl = 'https://www.indeonline.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'indeonline'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.jdnews.com/services/cobrand/header/',
+                        footerurl = 'https://www.jdnews.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'jdnews'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.journalstandard.com/services/cobrand/header/',
+                        footerurl = 'https://www.journalstandard.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'journalstandard'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.kinston.com/services/cobrand/header/',
+                        footerurl = 'https://www.kinston.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'kinston'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.kirksvilledailyexpress.com/services/cobrand/header/',
+                        footerurl = 'https://www.kirksvilledailyexpress.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'kirksvilledailyexpress'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.lajuntatribunedemocrat.com/services/cobrand/header/',
+                        footerurl = 'https://www.lajuntatribunedemocrat.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'lajuntatribunedemocrat'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.leesvilledailyleader.com/services/cobrand/header/',
+                        footerurl = 'https://www.leesvilledailyleader.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'leesvilledailyleader'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.lenconnect.com/services/cobrand/header/',
+                        footerurl = 'https://www.lenconnect.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'lenconnect'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.lincolncourier.com/services/cobrand/header/',
+                        footerurl = 'https://www.lincolncourier.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'lincolncourier'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.linncountyleader.com/services/cobrand/header/',
+                        footerurl = 'https://www.linncountyleader.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'linncountyleader'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.lubbockonline.com/services/cobrand/header/',
+                        footerurl = 'https://www.lubbockonline.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'lubbockonline'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.metrowestdailynews.com/services/cobrand/header/',
+                        footerurl = 'https://www.metrowestdailynews.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'metrowestdailynews'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.middletowntranscript.com/services/cobrand/header/',
+                        footerurl = 'https://www.middletowntranscript.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'middletowntranscript'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.milfordbeacon.com/services/cobrand/header/',
+                        footerurl = 'https://www.milfordbeacon.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'milfordbeacon'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.milforddailynews.com/services/cobrand/header/',
+                        footerurl = 'https://www.milforddailynews.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'milforddailynews'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.moberlymonitor.com/services/cobrand/header/',
+                        footerurl = 'https://www.moberlymonitor.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'moberlymonitor'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.monroenews.com/services/cobrand/header/',
+                        footerurl = 'https://www.monroenews.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'monroenews'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.mpnnow.com/services/cobrand/header/',
+                        footerurl = 'https://www.mpnnow.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'mpnnow'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.nevadaiowajournal.com/services/cobrand/header/',
+                        footerurl = 'https://www.nevadaiowajournal.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'nevadaiowajournal'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.newbernsj.com/services/cobrand/header/',
+                        footerurl = 'https://www.newbernsj.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'newbernsj'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.newportri.com/services/cobrand/header/',
+                        footerurl = 'https://www.newportri.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'newportri'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.newsherald.com/services/cobrand/header/',
+                        footerurl = 'https://www.newsherald.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'newsherald'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.news-journalonline.com/services/cobrand/header/',
+                        footerurl = 'https://www.news-journalonline.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'news-journalonline'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.newsrepublican.com/services/cobrand/header/',
+                        footerurl = 'https://www.newsrepublican.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'newsrepublican'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.newstribune.info/services/cobrand/header/',
+                        footerurl = 'https://www.newstribune.info/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'newstribuneinfo'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.njherald.com/services/cobrand/header/',
+                        footerurl = 'https://www.njherald.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'njherald'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.norwichbulletin.com/services/cobrand/header/',
+                        footerurl = 'https://www.norwichbulletin.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'norwichbulletin'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.nwfdailynews.com/services/cobrand/header/',
+                        footerurl = 'https://www.nwfdailynews.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'nwfdailynews'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.ocala.com/services/cobrand/header/',
+                        footerurl = 'https://www.ocala.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'ocala'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.oklahoman.com/services/cobrand/header/',
+                        footerurl = 'https://www.oklahoman.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'oklahoman'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.onlineathens.com/services/cobrand/header/',
+                        footerurl = 'https://www.onlineathens.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'onlineathens'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.palmbeachdailynews.com/services/cobrand/header/',
+                        footerurl = 'https://www.palmbeachdailynews.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'palmbeachdailynews'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.palmbeachpost.com/services/cobrand/header/',
+                        footerurl = 'https://www.palmbeachpost.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'palmbeachpost'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.paris-express.com/services/cobrand/header/',
+                        footerurl = 'https://www.paris-express.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'paris-express'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.pekintimes.com/services/cobrand/header/',
+                        footerurl = 'https://www.pekintimes.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'pekintimes'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.pjstar.com/services/cobrand/header/',
+                        footerurl = 'https://www.pjstar.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'pjstar'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.poconorecord.com/services/cobrand/header/',
+                        footerurl = 'https://www.poconorecord.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'poconorecord'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.postsouth.com/services/cobrand/header/',
+                        footerurl = 'https://www.postsouth.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'postsouth'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.pressargus.com/services/cobrand/header/',
+                        footerurl = 'https://www.pressargus.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'pressargus'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.progress-index.com/services/cobrand/header/',
+                        footerurl = 'https://www.progress-index.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'progress-index'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.recordnet.com/services/cobrand/header/',
+                        footerurl = 'https://www.recordnet.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'recordnet'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.middletowntranscript.com/services/cobrand/header/',
+                        footerurl = 'https://www.middletowntranscript.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'recordonline'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.recordstar.com/services/cobrand/header/',
+                        footerurl = 'https://www.recordstar.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'recordstar'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.redwoodfallsgazette.com/services/cobrand/header/',
+                        footerurl = 'https://www.redwoodfallsgazette.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'redwoodfallsgazette'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.registerguard.com/services/cobrand/header/',
+                        footerurl = 'https://www.registerguard.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'registerguard'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.rrstar.com/services/cobrand/header/',
+                        footerurl = 'https://www.rrstar.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'rrstar'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.salina.com/services/cobrand/header/',
+                        footerurl = 'https://www.salina.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'salina'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.seacoastonline.com/services/cobrand/header/',
+                        footerurl = 'https://www.seacoastonline.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'seacoastonline'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.sentinel-standard.com/services/cobrand/header/',
+                        footerurl = 'https://www.sentinel-standard.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'sentinel-standard'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.shelbystar.com/services/cobrand/header/',
+                        footerurl = 'https://www.shelbystar.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'shelbystar'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.sj-r.com/services/cobrand/header/',
+                        footerurl = 'https://www.sj-r.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'sj-r'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.sleepyeyenews.com/services/cobrand/header/',
+                        footerurl = 'https://www.sleepyeyenews.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'sleepyeyenews'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.sooeveningnews.com/services/cobrand/header/',
+                        footerurl = 'https://www.sooeveningnews.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'sooeveningnews'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.srpressgazette.com/services/cobrand/header/',
+                        footerurl = 'https://www.srpressgazette.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'srpressgazette'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.starfl.com/services/cobrand/header/',
+                        footerurl = 'https://www.starfl.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'starfl'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.starnewsonline.com/services/cobrand/header/',
+                        footerurl = 'https://www.starnewsonline.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'starnewsonline'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.statesman.com/services/cobrand/header/',
+                        footerurl = 'https://www.statesman.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'statesman'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.staugustine.com/services/cobrand/header/',
+                        footerurl = 'https://www.staugustine.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'staugustine'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.stjamesnews.com/services/cobrand/header/',
+                        footerurl = 'https://www.stjamesnews.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'stjamesnews'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.sturgisjournal.com/services/cobrand/header/',
+                        footerurl = 'https://www.sturgisjournal.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'sturgisjournal'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.sussexcountian.com/services/cobrand/header/',
+                        footerurl = 'https://www.sussexcountian.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'sussexcountian'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.swtimes.com/services/cobrand/header/',
+                        footerurl = 'https://www.swtimes.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'swtimes'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.tauntongazette.com/services/cobrand/header/',
+                        footerurl = 'https://www.tauntongazette.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'tauntongazette'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.telegram.com/services/cobrand/header/',
+                        footerurl = 'https://www.telegram.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'telegram'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.thedailyreporter.com/services/cobrand/header/',
+                        footerurl = 'https://www.thedailyreporter.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'thedailyreporter'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.theintell.com/services/cobrand/header/',
+                        footerurl = 'https://www.theintell.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'theintell'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.thekansan.com/services/cobrand/header/',
+                        footerurl = 'https://www.thekansan.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'thekansan'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.the-leader.com/services/cobrand/header/',
+                        footerurl = 'https://www.the-leader.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'the-leader'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.theledger.com/services/cobrand/header/',
+                        footerurl = 'https://www.theledger.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'theledger'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.theperrychief.com/services/cobrand/header/',
+                        footerurl = 'https://www.theperrychief.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'theperrychief'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.therecordherald.com/services/cobrand/header/',
+                        footerurl = 'https://www.therecordherald.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'therecordherald'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.therolladailynews.com/services/cobrand/header/',
+                        footerurl = 'https://www.therolladailynews.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'therolladailynews'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.thetimesnews.com/services/cobrand/header/',
+                        footerurl = 'https://www.thetimesnews.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'thetimesnews'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.thisweeknews.com/services/cobrand/header/',
+                        footerurl = 'https://www.thisweeknews.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'thisweeknews'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.timesreporter.com/services/cobrand/header/',
+                        footerurl = 'https://www.timesreporter.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'timesreporter'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.timestelegram.com/services/cobrand/header/',
+                        footerurl = 'https://www.timestelegram.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'timestelegram'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.tricountyindependent.com/services/cobrand/header/',
+                        footerurl = 'https://www.tricountyindependent.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'tricountyindependent'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.tricountyindependent.com/services/cobrand/header/',
+                        footerurl = 'https://www.tricountyindependent.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'wayneindependent'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.tricountytimes.com/services/cobrand/header/',
+                        footerurl = 'https://www.tricountytimes.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'tricountytimes'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.uticaod.com/services/cobrand/header/',
+                        footerurl = 'https://www.uticaod.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'uticaod'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.vvdailypress.com/services/cobrand/header/',
+                        footerurl = 'https://www.vvdailypress.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'vvdailypress'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.weeklycitizen.com/services/cobrand/header/',
+                        footerurl = 'https://www.weeklycitizen.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'weeklycitizen'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.wellsvilledaily.com/services/cobrand/header/',
+                        footerurl = 'https://www.wellsvilledaily.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'wellsvilledaily'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.AdelNews.com/services/cobrand/header/',
+                        footerurl = 'https://www.AdelNews.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'dallascountynewsonline'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.BeauregardDailyNews.net/services/cobrand/header/',
+                        footerurl = 'https://www.BeauregardDailyNews.net/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'deridderdaily'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.VVDailyPress.com/services/cobrand/header/',
+                        footerurl = 'https://www.VVDailyPress.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'desertdispatch'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.goerie.com/services/cobrand/header/',
+                        footerurl = 'https://www.goerie.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'erietimesnews'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.Examiner.net/services/cobrand/header/',
+                        footerurl = 'https://www.Examiner.net/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'examiner'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.FayObserver.com/services/cobrand/header/',
+                        footerurl = 'https://www.FayObserver.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'fayettevilleobserver'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.NewBernSJ.com/services/cobrand/header/',
+                        footerurl = 'https://www.NewBernSJ.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'havenews'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.VVDailyPress.com/services/cobrand/header/',
+                        footerurl = 'https://www.VVDailyPress.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'hesperiastar'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.hillsdale.net/services/cobrand/header/',
+                        footerurl = 'https://www.hillsdale.net/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'hillsdale'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.sj-r.com/services/cobrand/header/',
+                        footerurl = 'https://www.sj-r.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'journal-register'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.blufftontoday.com/services/cobrand/header/',
+                        footerurl = 'https://www.blufftontoday.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'lowcountry'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.morningsun.net/services/cobrand/header/',
+                        footerurl = 'https://www.morningsun.net/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'morningsun'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.tricountyindependent.com/services/cobrand/header/',
+                        footerurl = 'https://www.tricountyindependent.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'neagle'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.beaconjournal.com/services/cobrand/header/',
+                        footerurl = 'https://www.beaconjournal.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'ohio'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.newschief.com/services/cobrand/header/',
+                        footerurl = 'https://www.newschief.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'polkonline'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.providencejournal.com/services/cobrand/header/',
+                        footerurl = 'https://www.providencejournal.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'providence'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.galesburg.com/services/cobrand/header/',
+                        footerurl = 'https://www.galesburg.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'register-mail'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.savannahnow.com/services/cobrand/header/',
+                        footerurl = 'https://www.savannahnow.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'savannah'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.scsuntimes.com/services/cobrand/header/',
+                        footerurl = 'https://www.scsuntimes.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'scsuntimes'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.southbendtribune.com/services/cobrand/header/',
+                        footerurl = 'https://www.southbendtribune.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'southbendtribune'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.patriotledger.com/services/cobrand/header/',
+                        footerurl = 'https://www.patriotledger.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'southofboston'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.enterprisenews.com/services/cobrand/header/',
+                        footerurl = 'https://www.enterprisenews.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'southofboston-enterprise'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.patriotledger.com/services/cobrand/header/',
+                        footerurl = 'https://www.patriotledger.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'southofboston-ledger'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.goupstate.com/services/cobrand/header/',
+                        footerurl = 'https://www.goupstate.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'spartanburg'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.storycityherald.com/services/cobrand/header/',
+                        footerurl = 'https://www.storycityherald.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'storycityherald'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.tricountyindependent.com/services/cobrand/header/',
+                        footerurl = 'https://www.tricountyindependent.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'thecarbondalenews'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.jacksonville.com/services/cobrand/header/',
+                        footerurl = 'https://www.jacksonville.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'timesunion'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.tuscaloosanews.com/services/cobrand/header/',
+                        footerurl = 'https://www.tuscaloosanews.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'tuscaloosa'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.wickedlocal.com/services/cobrand/header/',
+                        footerurl = 'https://www.wickedlocal.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'WalthamNewsTribune'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.wickedlocal.com/services/cobrand/header/',
+                        footerurl = 'https://www.wickedlocal.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'wickedlocal-acton'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.wickedlocal.com/services/cobrand/header/',
+                        footerurl = 'https://www.wickedlocal.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'wickedlocal-arlington'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.wickedlocal.com/services/cobrand/header/',
+                        footerurl = 'https://www.wickedlocal.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'wickedlocal-amesbury'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.wickedlocal.com/services/cobrand/header/',
+                        footerurl = 'https://www.wickedlocal.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'wickedlocal-ashland'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.wickedlocal.com/services/cobrand/header/',
+                        footerurl = 'https://www.wickedlocal.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'wickedlocal-barnstable'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.wickedlocal.com/services/cobrand/header/',
+                        footerurl = 'https://www.wickedlocal.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'wickedlocal-bedford'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.wickedlocal.com/services/cobrand/header/',
+                        footerurl = 'https://www.wickedlocal.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'wickedlocal-bellingham'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.wickedlocal.com/services/cobrand/header/',
+                        footerurl = 'https://www.wickedlocal.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'wickedlocal-belmont'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.wickedlocal.com/services/cobrand/header/',
+                        footerurl = 'https://www.wickedlocal.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'wickedlocal-billerica'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.wickedlocal.com/services/cobrand/header/',
+                        footerurl = 'https://www.wickedlocal.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'wickedlocal-bolton'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.wickedlocal.com/services/cobrand/header/',
+                        footerurl = 'https://www.wickedlocal.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'wickedlocal-bourne'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.wickedlocal.com/services/cobrand/header/',
+                        footerurl = 'https://www.wickedlocal.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'wickedlocal-boxborough'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.wickedlocal.com/services/cobrand/header/',
+                        footerurl = 'https://www.wickedlocal.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'wickedlocal-braintree'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.wickedlocal.com/services/cobrand/header/',
+                        footerurl = 'https://www.wickedlocal.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'wickedlocal-brewster'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.wickedlocal.com/services/cobrand/header/',
+                        footerurl = 'https://www.wickedlocal.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'wickedlocal-brookline'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.wickedlocal.com/services/cobrand/header/',
+                        footerurl = 'https://www.wickedlocal.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'wickedlocal-bulletinandtab'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.wickedlocal.com/services/cobrand/header/',
+                        footerurl = 'https://www.wickedlocal.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'wickedlocal-burlington'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.wickedlocal.com/services/cobrand/header/',
+                        footerurl = 'https://www.wickedlocal.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'wickedlocal-cambridgechronicle'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.wickedlocal.com/services/cobrand/header/',
+                        footerurl = 'https://www.wickedlocal.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'wickedlocal-capecod'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.wickedlocal.com/services/cobrand/header/',
+                        footerurl = 'https://www.wickedlocal.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'wickedlocal-carver'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.wickedlocal.com/services/cobrand/header/',
+                        footerurl = 'https://www.wickedlocal.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'wickedlocal-chatham'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.wickedlocal.com/services/cobrand/header/',
+                        footerurl = 'https://www.wickedlocal.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'wickedlocal-ChronTranscript'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.wickedlocal.com/services/cobrand/header/',
+                        footerurl = 'https://www.wickedlocal.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'wickedlocal-clinton'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.wickedlocal.com/services/cobrand/header/',
+                        footerurl = 'https://www.wickedlocal.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'wickedlocal-cohasset'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.wickedlocal.com/services/cobrand/header/',
+                        footerurl = 'https://www.wickedlocal.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'wickedlocal-concordjournal'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.wickedlocal.com/services/cobrand/header/',
+                        footerurl = 'https://www.wickedlocal.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'wickedlocal-CourierandSentinel'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.wickedlocal.com/services/cobrand/header/',
+                        footerurl = 'https://www.wickedlocal.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'wickedlocal-dennis'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.wickedlocal.com/services/cobrand/header/',
+                        footerurl = 'https://www.wickedlocal.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'wickedlocal-duxbury'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.wickedlocal.com/services/cobrand/header/',
+                        footerurl = 'https://www.wickedlocal.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'wickedlocal-eagleindependent'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.wickedlocal.com/services/cobrand/header/',
+                        footerurl = 'https://www.wickedlocal.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'wickedlocal-eastham'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.wickedlocal.com/services/cobrand/header/',
+                        footerurl = 'https://www.wickedlocal.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'wickedlocal-essex'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.wickedlocal.com/services/cobrand/header/',
+                        footerurl = 'https://www.wickedlocal.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'wickedlocal-falmouth'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.wickedlocal.com/services/cobrand/header/',
+                        footerurl = 'https://www.wickedlocal.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'wickedlocal-foxborough'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.wickedlocal.com/services/cobrand/header/',
+                        footerurl = 'https://www.wickedlocal.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'wickedlocal-franklin'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.wickedlocal.com/services/cobrand/header/',
+                        footerurl = 'https://www.wickedlocal.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'wickedlocal-gloucester'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.wickedlocal.com/services/cobrand/header/',
+                        footerurl = 'https://www.wickedlocal.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'wickedlocal-halifax'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.wickedlocal.com/services/cobrand/header/',
+                        footerurl = 'https://www.wickedlocal.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'wickedlocal-harvard'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.wickedlocal.com/services/cobrand/header/',
+                        footerurl = 'https://www.wickedlocal.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'wickedlocal-harwich'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.wickedlocal.com/services/cobrand/header/',
+                        footerurl = 'https://www.wickedlocal.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'wickedlocal-HeraldCitizen'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.wickedlocal.com/services/cobrand/header/',
+                        footerurl = 'https://www.wickedlocal.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'wickedlocal-hingham'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.wickedlocal.com/services/cobrand/header/',
+                        footerurl = 'https://www.wickedlocal.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'wickedlocal-holliston'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.wickedlocal.com/services/cobrand/header/',
+                        footerurl = 'https://www.wickedlocal.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'wickedlocal-hudson'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.wickedlocal.com/services/cobrand/header/',
+                        footerurl = 'https://www.wickedlocal.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'wickedlocal-JournalNewsInd'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.wickedlocal.com/services/cobrand/header/',
+                        footerurl = 'https://www.wickedlocal.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'wickedlocal-JournalSun'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.wickedlocal.com/services/cobrand/header/',
+                        footerurl = 'https://www.wickedlocal.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'wickedlocal-kingston'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.wickedlocal.com/services/cobrand/header/',
+                        footerurl = 'https://www.wickedlocal.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'wickedlocal-lakeville'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.wickedlocal.com/services/cobrand/header/',
+                        footerurl = 'https://www.wickedlocal.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'wickedlocal-lancaster'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.wickedlocal.com/services/cobrand/header/',
+                        footerurl = 'https://www.wickedlocal.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'wickedlocal-lexington'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.wickedlocal.com/services/cobrand/header/',
+                        footerurl = 'https://www.wickedlocal.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'wickedlocal-manchester'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.wickedlocal.com/services/cobrand/header/',
+                        footerurl = 'https://www.wickedlocal.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'wickedlocal-marblehead'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.wickedlocal.com/services/cobrand/header/',
+                        footerurl = 'https://www.wickedlocal.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'wickedlocal-marion'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.wickedlocal.com/services/cobrand/header/',
+                        footerurl = 'https://www.wickedlocal.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'wickedlocal-marlborough'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.wickedlocal.com/services/cobrand/header/',
+                        footerurl = 'https://www.wickedlocal.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'wickedlocal-marshfield'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.wickedlocal.com/services/cobrand/header/',
+                        footerurl = 'https://www.wickedlocal.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'wickedlocal-mattapoisett'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.wickedlocal.com/services/cobrand/header/',
+                        footerurl = 'https://www.wickedlocal.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'wickedlocal-maynard'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.wickedlocal.com/services/cobrand/header/',
+                        footerurl = 'https://www.wickedlocal.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'wickedlocal-medford'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.wickedlocal.com/services/cobrand/header/',
+                        footerurl = 'https://www.wickedlocal.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'wickedlocal-medway'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.wickedlocal.com/services/cobrand/header/',
+                        footerurl = 'https://www.wickedlocal.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'wickedlocal-melrose'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.wickedlocal.com/services/cobrand/header/',
+                        footerurl = 'https://www.wickedlocal.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'wickedlocal-millis'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.wickedlocal.com/services/cobrand/header/',
+                        footerurl = 'https://www.wickedlocal.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'wickedlocal-needham'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.wickedlocal.com/services/cobrand/header/',
+                        footerurl = 'https://www.wickedlocal.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'wickedlocal-newton'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.wickedlocal.com/services/cobrand/header/',
+                        footerurl = 'https://www.wickedlocal.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'wickedlocal-norfolk'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.wickedlocal.com/services/cobrand/header/',
+                        footerurl = 'https://www.wickedlocal.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'wickedlocal-northshoresunday'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.wickedlocal.com/services/cobrand/header/',
+                        footerurl = 'https://www.wickedlocal.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'wickedlocal-norton'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.wickedlocal.com/services/cobrand/header/',
+                        footerurl = 'https://www.wickedlocal.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'wickedlocal-observeradvocate'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.wickedlocal.com/services/cobrand/header/',
+                        footerurl = 'https://www.wickedlocal.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'wickedlocal-orleans'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.wickedlocal.com/services/cobrand/header/',
+                        footerurl = 'https://www.wickedlocal.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'wickedlocal-pembroke'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.wickedlocal.com/services/cobrand/header/',
+                        footerurl = 'https://www.wickedlocal.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'wickedlocal-plainville'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.wickedlocal.com/services/cobrand/header/',
+                        footerurl = 'https://www.wickedlocal.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'wickedlocal-plymouth'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.wickedlocal.com/services/cobrand/header/',
+                        footerurl = 'https://www.wickedlocal.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'wickedlocal-plympton'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.wickedlocal.com/services/cobrand/header/',
+                        footerurl = 'https://www.wickedlocal.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'wickedlocal-provincetown'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.wickedlocal.com/services/cobrand/header/',
+                        footerurl = 'https://www.wickedlocal.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'wickedlocal-recordcitizen'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.wickedlocal.com/services/cobrand/header/',
+                        footerurl = 'https://www.wickedlocal.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'wickedlocal-salem'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.wickedlocal.com/services/cobrand/header/',
+                        footerurl = 'https://www.wickedlocal.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'wickedlocal-sandwich'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.wickedlocal.com/services/cobrand/header/',
+                        footerurl = 'https://www.wickedlocal.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'wickedlocal-saugus'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.wickedlocal.com/services/cobrand/header/',
+                        footerurl = 'https://www.wickedlocal.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'wickedlocal-scituate'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.wickedlocal.com/services/cobrand/header/',
+                        footerurl = 'https://www.wickedlocal.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'wickedlocal-sherborn'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.wickedlocal.com/services/cobrand/header/',
+                        footerurl = 'https://www.wickedlocal.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'wickedlocal-somerville'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.wickedlocal.com/services/cobrand/header/',
+                        footerurl = 'https://www.wickedlocal.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'wickedlocal-stow'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.wickedlocal.com/services/cobrand/header/',
+                        footerurl = 'https://www.wickedlocal.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'wickedlocal-sudbury'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.wickedlocal.com/services/cobrand/header/',
+                        footerurl = 'https://www.wickedlocal.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'wickedlocal-sunadvocate'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.wickedlocal.com/services/cobrand/header/',
+                        footerurl = 'https://www.wickedlocal.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'wickedlocal-swampscott'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.wickedlocal.com/services/cobrand/header/',
+                        footerurl = 'https://www.wickedlocal.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'wickedlocal-Tewks-WilAdvocate'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.wickedlocal.com/services/cobrand/header/',
+                        footerurl = 'https://www.wickedlocal.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'wickedlocal-themariner'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.wickedlocal.com/services/cobrand/header/',
+                        footerurl = 'https://www.wickedlocal.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'wickedlocal-thepress'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.wickedlocal.com/services/cobrand/header/',
+                        footerurl = 'https://www.wickedlocal.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'wickedlocal-TheTranscriptTAB'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.wickedlocal.com/services/cobrand/header/',
+                        footerurl = 'https://www.wickedlocal.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'wickedlocal-timesadvocate'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.wickedlocal.com/services/cobrand/header/',
+                        footerurl = 'https://www.wickedlocal.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'wickedlocal-TransAndBulletin'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.wickedlocal.com/services/cobrand/header/',
+                        footerurl = 'https://www.wickedlocal.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'wickedlocal-villagenews'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.wickedlocal.com/services/cobrand/header/',
+                        footerurl = 'https://www.wickedlocal.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'wickedlocal-watertown'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.wickedlocal.com/services/cobrand/header/',
+                        footerurl = 'https://www.wickedlocal.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'wickedlocal-wayland'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.wickedlocal.com/services/cobrand/header/',
+                        footerurl = 'https://www.wickedlocal.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'wickedlocal-wellesley'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.wickedlocal.com/services/cobrand/header/',
+                        footerurl = 'https://www.wickedlocal.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'wickedlocal-wenham'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.wickedlocal.com/services/cobrand/header/',
+                        footerurl = 'https://www.wickedlocal.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'wickedlocal-weston'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.wickedlocal.com/services/cobrand/header/',
+                        footerurl = 'https://www.wickedlocal.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'wickedlocal-weymouth'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.wickedlocal.com/services/cobrand/header/',
+                        footerurl = 'https://www.wickedlocal.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'wickedlocal-winchester'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.wickedlocal.com/services/cobrand/header/',
+                        footerurl = 'https://www.wickedlocal.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'wickedlocal-wrentham'"
+"UPDATE dbo.tblaffiliatesettings
+                    SET headerurl = 'https://www.wickedlocal.com/services/cobrand/header/',
+                        footerurl = 'https://www.wickedlocal.com/services/cobrand/footer/',
+                        artworkdeliveryoption = 3
+                    WHERE affiliatesitename = 'wickedlocal-yarmouth'"

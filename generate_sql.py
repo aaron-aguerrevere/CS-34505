@@ -21,15 +21,17 @@ def generate_sql():
     
         writer = csv.writer(result, dialect='excel')
 
-        for row in reader:
-            writer.writerow([row[0]])
-            # writer.writerow(
-            #     f'UPDATE dbo.tblaffiliatesettings\n\
-            #     SET headerurl = {row[5]},\n\
-            #         footerurl = {row[6]},\n\
-            #         artworkdeliveryoption = 3\n\
-            #     WHERE affiliatesitename = {row[0]}'
-            # )
+        for i, row in enumerate(reader):
+            if i == 0:
+                continue
+            else:
+                writer.writerow(
+                    [f"UPDATE dbo.tblaffiliatesettings\n\
+                    SET headerurl = '{row[5]}',\n\
+                        footerurl = '{row[6]}',\n\
+                        artworkdeliveryoption = 3\n\
+                    WHERE affiliatesitename = '{row[0]}'"]
+                )
 
 
 ############------------ DRIVER CODE ------------############
