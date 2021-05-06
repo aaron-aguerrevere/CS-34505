@@ -245,5 +245,5 @@ wickedlocal-weston: ma-wickedlocal-C6478,
 wickedlocal-weymouth: ma-wickedlocal-C6478,
 wickedlocal-winchester: ma-wickedlocal-C6478,
 wickedlocal-wrentham: ma-wickedlocal-C6478,
-wickedlocal-yarmouth: ma-wickedlocal-C6478
+wickedlocal-yarmouth: ma-wickedlocal-C6478,
 };
