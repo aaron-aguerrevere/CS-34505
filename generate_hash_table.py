@@ -54,7 +54,26 @@ def generate_mobile_hash_table():
     mobile_hash_table.write('};')
 
 
+def generate_comma_separated_string():
+    csvfile = open('gh.csv', newline='')
+
+    reader = csv.reader(csvfile)
+
+    desktop_hash_table = open('comma_separated_string.txt', 'w')
+
+    string_to_write = ''
+
+    for i, row in enumerate(reader):
+        if i == 0:
+            continue
+        else:
+            string_to_write += f"{row[0]}, "
+            
+    desktop_hash_table.write(string_to_write.rstrip(', '))
+
+
 ############------------ DRIVER CODE ------------############
 if __name__ == '__main__':
-    generate_desktop_hash_table()
-    generate_mobile_hash_table()
+    # generate_desktop_hash_table()
+    # generate_mobile_hash_table()
+    generate_comma_separated_string()
