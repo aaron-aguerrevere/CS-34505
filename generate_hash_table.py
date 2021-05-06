@@ -9,12 +9,22 @@ def generate_desktop_hash_table():
     'alicetx': 'tx-alice-C6683',
     };
     '''
+    desktop = dict()
 
     csvfile = open('gh.csv', newline='')
 
-    reader = csv.reader(csvfile, skipinitialspace=True)
+    reader = csv.reader(csvfile)
 
-    pass
+    for i, row in enumerate(reader):
+        if i == 0:
+            continue
+        else:
+            desktop[row[0]] = row[7]
+
+    print(desktop)
+    
+
+
 
     
 def generate_mobile_hash_table():
@@ -24,13 +34,21 @@ def generate_mobile_hash_table():
     };
     '''
 
+    mobile = dict()
+
     csvfile = open('gh.csv', newline='')
 
-    reader = csv.reader(csvfile, skipinitialspace=True)
+    reader = csv.reader(csvfile)
 
-    pass
+    for i, row in enumerate(reader):
+        if i == 0:
+            continue
+        else:
+            mobile[row[0]] = row[8]
+
+    print(mobile)
 
 ############------------ DRIVER CODE ------------############
 if __name__ == '__main__':
-    generate_desktop_hash_table()
+    # generate_desktop_hash_table()
     generate_mobile_hash_table()
