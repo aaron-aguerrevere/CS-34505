@@ -22,7 +22,7 @@ def generate_desktop_hash_table():
         if i == 0:
             continue
         else:
-            desktop_hash_table.write(f'{row[0]}: {row[7]},\n')
+            desktop_hash_table.write(f"'{row[0]}': '{row[7]}',\n")
 
     desktop_hash_table.write('};')
     
@@ -49,12 +49,12 @@ def generate_mobile_hash_table():
         if i == 0:
             continue
         else:
-            mobile_hash_table.write(f'{row[0]}: {row[8]},\n')
+            mobile_hash_table.write(f"'{row[0]}': '{row[8]}',\n")
 
     mobile_hash_table.write('};')
 
 
 ############------------ DRIVER CODE ------------############
 if __name__ == '__main__':
-    # generate_desktop_hash_table()
+    generate_desktop_hash_table()
     generate_mobile_hash_table()
