@@ -44,3 +44,19 @@ WHERE affiliatesitename = <sitename>
 `generate_sql.py` grabs all required data from `csv` file provided by affiliate and creates a copy of the above `sql` script per site. 
 
 resulting sql scrips can be found [here](https://docs.google.com/spreadsheets/d/1LcJqbe17NXDF89_nc7INKl5UVasKD-SIBH9YNm6utSs/edit#gid=263315091)
+
+
+### generate_hash_table.py
+
+generates the following format, including all 247 cobrands:
+
+```
+var gannettHashTable = {
+'alicetx': 'tx-alice-mobile-C6683',
+};
+```
+
+re: trailing commas in the hashtable, _JavaScript has allowed trailing commas in array literals since the beginning, and later added them to object literals (ECMAScript 5) and most recently (ECMAScript 2017) to function parameters._ [1]
+
+---
+[1] https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Trailing_commas
